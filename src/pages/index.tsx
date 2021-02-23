@@ -1,5 +1,7 @@
+import Catalog from "../components/Catalog";
+
 export default function Home() {
   return (
-    <h1>Base Project with NextJS</h1>
+    <Catalog />
   )
 }
