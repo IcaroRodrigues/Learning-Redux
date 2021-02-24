@@ -1,7 +1,11 @@
+import Cart from "../components/Cart";
 import Catalog from "../components/Catalog";
 
 export default function Home() {
   return (
-    <Catalog />
+    <>
+      <Catalog />
+      <Cart />
+    </>
   )
 }
